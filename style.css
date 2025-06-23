@@ -1,0 +1,39 @@
+/*
+Estructura básica:
+selector {
+    color:red;
+}
+
+{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+body{
+    background-color: bisque;
+}
+
+section{
+    border: 1px solid black;
+    height: 5rem;
+    background-color: cadetblue;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+ul{
+    deco
+    text-decoration: none;
+
+.sectionUna{ refencias por clases con .
+    background-color: azure;
+}
+
+.sectionUna{
+    background-color: burlywood;
+}
+
+#sectionDos{ para id se una #
+    background-color: yellow;
+}
+*/

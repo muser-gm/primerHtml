@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>PRODUCTO</th>
+                <th>PRECIO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Celular</th>
+                <th>$89.000</th>
+            </tr>
+            <tr>
+                <th>Cargador</th>
+                <th>$10.000</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total $99.000</td>
+        </tfoot>
+    </table>
+    <!-- ul es una lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+     <!--ol ordena la lista-->
+     <ol>
+        <li>Elemento </li>
+            <ol>
+ 		    <li style="list-style-type: lower-roman;"> sub elemento de 1 </li>
+            </ol>
+        <li>Elemento </li>
+            <ol>
+ 		    <li style="list-style-type: lower-alpha;"> sub elemento 1 de 2 </li>
+            <li style="list-style-type: lower-alpha;"> sub elemento 2 de 2 </li>
+            </ol>
+        <li>Elemento </li>
+        <li>Elemento </li>
+     </ol>
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Escribí tu nombre aquí </label>
+        <input type="text" name="nombre" placeholder="Juan" />
+        <br>
+        <label for="comentario"> Comenta tu experiencia aquí </label>
+        <textarea rows="5" cols="50"  name="comentario" id="comentario"  placeholder="comentario"></textarea>
+        <br>
+        <button type="submit"> Pincha aqui para enviar <img src="img/enviar.jpeg" width="100" /button>
+    </form>
+    <h1>Mi primer heading como titulo principal</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading y ultimo tamaño posible</h6>
+    <p>estoy contento creando un párrafo con la etiqueta "p". No es mucho pero es la primera ves creando en la web! Ahora probaré esto de crear un enlace: <span style="color:rgb(60, 255, 0)"> palabras en color verde</span> </p>
+    <p>haber como se ve esto?</p>
+    <h2>mas y mas felices?</h2>
+        <p>
+            si mas parrafos en sub titulo<span style="color:blue"> nivel h2...para que escribir</span>
+             mas si no se ni que poner <br> <br> en este parrafo nuevo
+        </p>
+    <!--este texto es un comentario
+    y no va a aparecer en el navegador-->
+    <a target="_blank" href="https://lds.org">ir a la pagina lds</a>
+    <img src="img/capilla.jpg" width="400"/> <!--width o height-->
+</body>
+</html>

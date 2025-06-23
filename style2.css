@@ -1,0 +1,10 @@
+ol{
+    border: 1px solid hwb(0 9% 11%);
+    height: 5rem;
+    background-color: rgb(214, 165, 165);
+    margin: 1rem;
+    padding: 1rem;
+}
+body{
+    background-color: rgb(186, 238, 193);
+}
