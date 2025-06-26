@@ -1,12 +1,44 @@
+<!--
+Html
+- Etiquetas: <apretura> contenido </cierre> 
+- Atrubutos: <nombreEtiqueta atributo="x">
+<html>
+    <head> // Caracteristicas de la página que no será visible para el usuario
+        <title> Titulo relacionado a mi página </title>
+    </head>
+
+    <body> //Todo el contenido de mi página web
+        <h1> heading que usan en motores de búsqueda</h1>
+        <p> párrafo </p> //usar para cada nuevo párrafo
+        <hr> //es una linea que genera un espacio
+        <span> parte de texto para referenciar </span> //podemos manipularlo
+        <br> //produce un salto de linea
+        <a target="_blank" href="https://..."> texto que referencia a la página </a> //nos lleva a la web (con target...abre otra pestaña)
+        <img src="https://.../img.jpg"> //img puede referenciar a una imagen de la web, pero podria no estar mas
+            <img src="carpeta/imagenX.png"> //lo que esta en nuestro disco
+            <img src="ruta" width="400" height="300"> // alto y ancho en pixeles
+        <form action="/dondeLllega" method="get ó post"> //llenar un formulario y donde llegaran. El metodo es la visibilidad de la direccion del formulario hacia el usuario (lo largo)
+            <label> Que ingresar </label> //Puede indicar que ingresar en el campo
+                <label for="dato"> Que ingresar </label> //el for hace referencia a donde empezar a escribir
+            <input id="" name=" " placeholder=" " type=" "> //recopilar informacion del usuario en un campo de texto
+                id="dato" //indica que esta referenciado al clikear el sector que indica el id
+                name="queHayDentro" //describe lo que contiene
+                placeholder="QuePide" //escribe en letra clara con que debe rellenar
+                type="tipoDeIngreso" //texto, password, email, submit, radio, checkbox, file
+            <textarea cols="50" rows="100" ...> //propiedades como input y junto con label + redimencionar el area
+            
+        </form>  
+    </body>
+</html>
+-->
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Su Iglesia</title>
+    <link rel="stylesheet" href="proyTemplo.css">
 </head>
-
 <body>
     <main>
         <section>
@@ -18,9 +50,7 @@
                     sostenemos a Rusell Marion Nelson como profeta, vidente y revelador y lo reconocemos
                     como la persona que Jesucristo llamo para guiarnos.
                 </p>
-                <br>
                 <img src="img/img-pteNelson-pulp.jpg">
-                <br>
                 <p>
                     Uno de sus consejos fue:
                     "Esta es mi promesa para ustedes: todo aquel que busque con sinceridad a Jesucristo
@@ -31,14 +61,13 @@
             <br>
 
             <article>
+                <hr>
                 <h4>Los Templos</h4>
                 <p>
                     Los templos de La Iglesia son lugares sagrados donde los miembros podemos ir
                     a adorar a Dios. Lleva escrito la exclamación : "Santidad al Señor, La Casa del Señor".
                 </p>
-                <br>
                 <img src="img/templo-bsas.avif" width="580">
-                <br>
                 <h6>(Templo de Buenos Aires, Argentina)</h6>
                 <p>
                     Allí se realizan ordenanzas sagradas que nos prepraran para regresar a la presencia de Dios.
@@ -49,6 +78,7 @@
             <br>
 
             <article>
+                <hr>
                 <h4>Familias Eternas</h4>
                 <p>
                     Una de las ordenanzas sagradas que se llevan cabo en los templos es el sellamiento de
@@ -59,9 +89,7 @@
                     que en el tiempo del antigüo testamento, estaban sobre Elias el profeta. Y que por lo
                     tanto hoy gozamos de esa misma bendición.
                 </p>
-                <br>
                 <img src="img/familia-sud.jpg" width="580">
-                <br>
                 <p>
                     Es por esta razón que nuestro profeta nos insta con amor a asistir al templo con la regularidad
                     que nuestras circunstancias nos permitan.
@@ -72,6 +100,7 @@
 
 
         <section>
+            <hr>
             <h3>Te gustó este blog?</h3>
             <form action="/formulario" method="post">
                 <label for="nombre">Escribí tu nombre</label>
